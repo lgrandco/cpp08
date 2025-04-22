@@ -1,7 +1,7 @@
 NAME = ex01
 
 SRC = main.cpp Span.cpp
-INC = ..
+INC = -I..
 
 OBJ = $(SRC:.cpp=.o)
 DEPS = $(SRC:.cpp=.d)
@@ -9,12 +9,10 @@ DEPS = $(SRC:.cpp=.d)
 CC = cc
 CXX = c++
 
-CFLAGS = -Wall -Wextra -Werror -MMD -MP -g3 -I$(INC)
+CFLAGS = -Wall -Wextra -Werror -MMD -MP -g3 $(INC)
 CXXFLAGS = $(CFLAGS) --std=c++98
 
 RM = rm -f
-
-INC = ..
 
 all : $(NAME)
 
