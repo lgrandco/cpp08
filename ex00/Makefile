@@ -1,6 +1,6 @@
 NAME = ex00
 
-SRC = main.cpp
+SRC = ../colors.cpp main.cpp
 INC = -I..
 
 OBJ = $(SRC:.cpp=.o)
