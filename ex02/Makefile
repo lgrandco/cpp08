@@ -1,4 +1,4 @@
-NAME = ex01
+NAME = ex02
 
 SRC = ../colors.cpp main.cpp MutantStack.cpp
 INC = -I..
