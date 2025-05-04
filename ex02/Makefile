@@ -1,6 +1,6 @@
 NAME = ex02
 
-SRC = ../colors.cpp main.cpp MutantStack.cpp
+SRC = ../colors.cpp main.cpp
 INC = -I..
 
 OBJ = $(SRC:.cpp=.o)
